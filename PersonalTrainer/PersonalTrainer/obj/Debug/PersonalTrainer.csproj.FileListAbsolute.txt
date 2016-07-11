@@ -1,0 +1,12 @@
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\PersonalTrainer.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\PersonalTrainer.pdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Xamarin.Forms.Core.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Xamarin.Forms.Core.xml
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\obj\Debug\PersonalTrainer.csprojResolveAssemblyReference.cache
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\obj\Debug\PersonalTrainer.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\obj\Debug\PersonalTrainer.pdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\obj\Debug\PersonalTrainer.dll.mdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\PersonalTrainer.dll.mdb

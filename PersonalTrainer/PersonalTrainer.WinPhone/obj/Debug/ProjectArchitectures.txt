@@ -1,0 +1,2 @@
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\PersonalTrainer.WinPhone.csproj;neutral
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\PersonalTrainer.csproj;neutral
