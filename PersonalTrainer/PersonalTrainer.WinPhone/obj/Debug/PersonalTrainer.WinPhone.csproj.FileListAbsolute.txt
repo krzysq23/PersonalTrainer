@@ -45,3 +45,10 @@ C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\obj\Debug\M
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.pri.xml
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\obj\Debug\Xamarin.Forms.Platform.WinRT.Phone.pri.xml
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\obj\Debug\ProjectArchitectures.txt
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\bin\Debug\SQLite-net.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\bin\Debug\SQLitePCL.batteries.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\bin\Debug\SQLitePCL.raw.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\bin\Debug\SQLitePCLPlugin_esqlite3.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\bin\Debug\SQLite-net.xml
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\bin\Debug\SQLitePCL.raw.pri
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.WinPhone\obj\Debug\SQLitePCL.raw.pri.xml
