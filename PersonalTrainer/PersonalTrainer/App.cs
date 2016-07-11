@@ -1,4 +1,9 @@
-﻿using System;
+﻿using GalaSoft.MvvmLight.Ioc;
+using GalaSoft.MvvmLight.Views;
+using PersonalTrainer.Helper;
+using PersonalTrainer.Pages;
+using PersonalTrainer.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,40 +14,27 @@ namespace PersonalTrainer
 {
     public class App : Application
     {
+        private static ViewModelLocator _locator;
+        public static ViewModelLocator Locator { get { return _locator ?? (_locator = new ViewModelLocator()); } }
+
         public App()
         {
-            // The root page of your application
-            var content = new ContentPage
-            {
-                Title = "PersonalTrainer",
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
-
-            MainPage = new NavigationPage(content);
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+
         }
 
         protected override void OnSleep()
         {
-            // Handle when your app sleeps
+
         }
 
         protected override void OnResume()
         {
-            // Handle when your app resumes
+
         }
     }
 }

@@ -11,5 +11,17 @@ C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\SQLite-net
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\SQLitePCL.batteries.dll
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\SQLitePCL.raw.dll
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\SQLite-net.xml
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\obj\Debug\PersonalTrainer.csprojResolveAssemblyReference.cache
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\obj\Debug\PersonalTrainer.Pages.Training.HomePage.xaml.g.cs
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\obj\Debug\PersonalTrainer.Pages.Training.SecondPage.xaml.g.cs
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\obj\Debug\PersonalTrainer.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\PersonalTrainer.dll.mdb
