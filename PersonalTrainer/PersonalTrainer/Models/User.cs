@@ -12,6 +12,7 @@ namespace PersonalTrainer.Models
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
         public string UserName { get; set; }
+        public Gender Gender { get; set; }
         public int Age { get; set; }
         public int Weight { get; set; }
         public int Height { get; set; }

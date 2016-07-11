@@ -117,7 +117,58 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Add" xml:space="preserve">
+    <value>Dodaj</value>
+  </data>
+  <data name="AddTraining" xml:space="preserve">
+    <value>Dodaj nowy trening</value>
+  </data>
+  <data name="Age" xml:space="preserve">
+    <value>Wiek</value>
+  </data>
+  <data name="BMIlbl" xml:space="preserve">
+    <value>Miernik BMI</value>
+  </data>
+  <data name="Famale" xml:space="preserve">
+    <value>Kobieta</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Płeć</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Wysokość</value>
+  </data>
   <data name="Home" xml:space="preserve">
     <value>Strona główna</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Informacja</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Mężczyzna</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Zapisz</value>
+  </data>
+  <data name="SaveChanges" xml:space="preserve">
+    <value>Zapisano zmiany!</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Wyślij</value>
+  </data>
+  <data name="Training" xml:space="preserve">
+    <value>Trening</value>
+  </data>
+  <data name="TrainingCallendar" xml:space="preserve">
+    <value>Kalendarz treningów</value>
+  </data>
+  <data name="UserEditInfo" xml:space="preserve">
+    <value>Edytuj informacje</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Nazwa użytkownika</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Waga</value>
   </data>
 </root>

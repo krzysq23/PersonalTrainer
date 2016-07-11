@@ -49,4 +49,9 @@ C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\andr
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\System.Text.RegularExpressions.dll
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\System.Collections.Concurrent.dll
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\System.Runtime.InteropServices.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\Acr.UserDialogs.Interface.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\Splat.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\System.Runtime.Serialization.Primitives.dll
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\System.Diagnostics.Tools.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\Acr.UserDialogs.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\pl\PersonalTrainer.resources.dll

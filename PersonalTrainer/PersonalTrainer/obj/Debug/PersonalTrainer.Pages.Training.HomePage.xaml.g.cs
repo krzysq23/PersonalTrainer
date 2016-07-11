@@ -17,12 +17,28 @@ namespace PersonalTrainer.Pages {
     public partial class HomePage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button addpProduct;
+        private global::Xamarin.Forms.Label title;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button UserInfoBtn;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button BmiBtn;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button AddtraningBtn;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button TrainingCallendarBtn;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(HomePage));
-            addpProduct = this.FindByName<global::Xamarin.Forms.Button>("addpProduct");
+            title = this.FindByName<global::Xamarin.Forms.Label>("title");
+            UserInfoBtn = this.FindByName<global::Xamarin.Forms.Button>("UserInfoBtn");
+            BmiBtn = this.FindByName<global::Xamarin.Forms.Button>("BmiBtn");
+            AddtraningBtn = this.FindByName<global::Xamarin.Forms.Button>("AddtraningBtn");
+            TrainingCallendarBtn = this.FindByName<global::Xamarin.Forms.Button>("TrainingCallendarBtn");
         }
     }
 }

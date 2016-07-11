@@ -7,8 +7,12 @@
   <StackLayout VerticalOptions="StartAndExpand" Padding="20">
 
     <Image WidthRequest="200" Source="logo.png"/>
-    <Label Text="home" HorizontalOptions="Center" />
-    <Button x:Name="addpProduct" Clicked="SeccondButtonClicked" />
+    <Label x:Name="title" HorizontalOptions="Center" />
+    
+    <Button x:Name="UserInfoBtn"  Command="{Binding UserEditInfoCommand}"/>
+    <Button x:Name="BmiBtn"  Command="{Binding BmiCommand}"/>
+    <Button x:Name="AddtraningBtn"  Command="{Binding AddTrainingCommand}"/>
+    <Button x:Name="TrainingCallendarBtn"  Command="{Binding TrainingCallendarCommand}"/>
 
   </StackLayout>
   

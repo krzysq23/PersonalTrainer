@@ -32,10 +32,17 @@ namespace PersonalTrainer.ViewModel
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
 
             SimpleIoc.Default.Register<HomeViewModel>();
-            SimpleIoc.Default.Register<SecondViewModel>(); 
+            SimpleIoc.Default.Register<UserEditInfoViewModel>();
+            SimpleIoc.Default.Register<AddTrainingViewModel>();
+            SimpleIoc.Default.Register<BMIViewModel>();
+            SimpleIoc.Default.Register<TrainingCallendarViewModel>();
         }
 
         public const string HomePage = "HomePage";
+        public const string UserEditInfoPage = "UserEditInfoPage";
+        public const string BMIPage = "BMIPage";
+        public const string AddTrainingPage = "AddTrainingPage";
+        public const string TrainingCallendarPage = "TrainingCallendarPage";
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance",
             "CA1822:MarkMembersAsStatic",
@@ -51,14 +58,46 @@ namespace PersonalTrainer.ViewModel
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance",
             "CA1822:MarkMembersAsStatic",
             Justification = "This non-static member is needed for data binding purposes.")]
-        public SecondViewModel Second
+        public UserEditInfoViewModel UserEditInfo
         {
             get
             {
-                return ServiceLocator.Current.GetInstance<SecondViewModel>();
+                return ServiceLocator.Current.GetInstance<UserEditInfoViewModel>();
             }
         }
 
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance",
+            "CA1822:MarkMembersAsStatic",
+            Justification = "This non-static member is needed for data binding purposes.")]
+        public BMIViewModel BMI
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<BMIViewModel>();
+            }
+        }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance",
+            "CA1822:MarkMembersAsStatic",
+            Justification = "This non-static member is needed for data binding purposes.")]
+        public AddTrainingViewModel AddTraining
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<AddTrainingViewModel>();
+            }
+        }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance",
+            "CA1822:MarkMembersAsStatic",
+            Justification = "This non-static member is needed for data binding purposes.")]
+        public TrainingCallendarViewModel TrainingCallendar
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<TrainingCallendarViewModel>();
+            }
+        }
         public static void Cleanup()
         {
 

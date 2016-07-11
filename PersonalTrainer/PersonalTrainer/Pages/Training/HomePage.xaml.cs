@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PersonalTrainer.Resx;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,14 +14,17 @@ namespace PersonalTrainer.Pages
         public HomePage()
         {
             InitializeComponent();
-            BindingContext = App.Locator.Home; 
+            BindingContext = App.Locator.Home;
+            DataResource();
         }
 
-        async void SeccondButtonClicked(object sender, EventArgs e)
+        public void DataResource()
         {
-            var navigation = Application.Current.MainPage as NavigationPage;
-            await navigation.PushAsync(new Pages.SecondPage());
+            title.Text = AppResource.PersonalTrener;
+            UserInfoBtn.Text = AppResource.UserEditInfo;
+            BmiBtn.Text = AppResource.BMIlbl;
+            AddtraningBtn.Text = AppResource.AddTraining;
+            TrainingCallendarBtn.Text = AppResource.TrainingCallendar;
         }
-
     }
 }

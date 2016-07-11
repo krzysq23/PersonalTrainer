@@ -133,7 +133,11 @@ class MonoPackageManager_Resources {
 		"System.Text.RegularExpressions.dll",
 		"System.Collections.Concurrent.dll",
 		"System.Runtime.InteropServices.dll",
+		"Acr.UserDialogs.Interface.dll",
+		"Splat.dll",
+		"System.Runtime.Serialization.Primitives.dll",
 		"System.Diagnostics.Tools.dll",
+		"Acr.UserDialogs.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
