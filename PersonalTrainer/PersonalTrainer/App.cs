@@ -19,6 +19,11 @@ namespace PersonalTrainer
 
         public App()
         {
+            if (Device.OS != TargetPlatform.WinPhone)
+            {
+                DependencyService.Get<ILocalize>().SetLocale();
+            }
+
             MainPage = new NavigationPage(new HomePage());
         }
 
