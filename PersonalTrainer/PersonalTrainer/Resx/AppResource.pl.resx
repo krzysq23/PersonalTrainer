@@ -126,8 +126,32 @@
   <data name="Age" xml:space="preserve">
     <value>Wiek</value>
   </data>
+  <data name="Bmi1" xml:space="preserve">
+    <value>wygłodzenie</value>
+  </data>
+  <data name="Bmi2" xml:space="preserve">
+    <value>wychudzenie</value>
+  </data>
+  <data name="Bmi3" xml:space="preserve">
+    <value>niedowaga</value>
+  </data>
+  <data name="Bmi4" xml:space="preserve">
+    <value>wartość prawidłowa</value>
+  </data>
+  <data name="Bmi5" xml:space="preserve">
+    <value>nadwaga</value>
+  </data>
+  <data name="Bmi6" xml:space="preserve">
+    <value>I stpień otyłości</value>
+  </data>
+  <data name="Bmi7" xml:space="preserve">
+    <value>II stopień otyłości</value>
+  </data>
+  <data name="Bmi8" xml:space="preserve">
+    <value>II stopień otyłości</value>
+  </data>
   <data name="BMIis" xml:space="preserve">
-    <value>BMI weight is:</value>
+    <value>Wskaźnik masy ciała BMI wynosi:</value>
   </data>
   <data name="BMIlbl" xml:space="preserve">
     <value>Miernik BMI</value>

@@ -5,20 +5,85 @@
              Title="{Binding Title}">
 
 
-  <ContentPage.Content BindingContext="{Binding UserInfo}">
-    <StackLayout Spacing="10" Padding="10">
-      <StackLayout  Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
-        <Label x:Name="bmilbl" VerticalTextAlignment="Center" HorizontalOptions="Start" FontSize="Medium"/>
-        <Label Text="{Binding ProductName}" Margin="10,0,0,0" VerticalTextAlignment="Center" HorizontalTextAlignment="End" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold"/>
-      </StackLayout>
+    <StackLayout Padding="10" BindingContext="{Binding BmiInfo}">
+
+    <StackLayout Spacing="1">
+      <Grid>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Text="15,0"
+               Grid.Row="0" Grid.Column="0"
+               TextColor="#012c50"
+               VerticalOptions="Center"
+               BackgroundColor="#9BC1E2" />
+
+        <Label Text="15,0 - 16,4"
+               Grid.Row="0" Grid.Column="1"
+               TextColor="#11528a"
+               VerticalOptions="Center"
+               BackgroundColor="#B4D1E9" />
+
+        <Label Text="16,5 - 20,0"
+              Grid.Row="0" Grid.Column="2"
+               TextColor="#2378c0"
+               VerticalOptions="Center"
+               BackgroundColor="#CDE0F1" />
+        
+        <Label Text="20,1 - 25,9"
+              Grid.Row="0" Grid.Column="3"
+               TextColor="#58950c"
+               VerticalOptions="Center"
+               BackgroundColor="#E4F1D1" />
+        
+        <Label Text="26,0 - 29,9"
+              Grid.Row="0" Grid.Column="4"
+               TextColor="#e369"
+               VerticalOptions="Center"
+               BackgroundColor="#FAEAEA" />
+        
+        <Label Text="30,0 - 34,9"
+              Grid.Row="0" Grid.Column="5"
+               TextColor="#d4430c"
+               VerticalOptions="Center"
+               BackgroundColor="#F6DBDB" />
+        
+        <Label Text="35,0 - 39,9"
+              Grid.Row="0" Grid.Column="6"
+               TextColor="#9b3008"
+               VerticalOptions="Center"
+               BackgroundColor="#F2CDCD" />
+        
+        <Label Text="40"
+              Grid.Row="0" Grid.Column="7"
+               TextColor="#661c00"
+               VerticalOptions="Center"
+               BackgroundColor="#EDB8B8" />
+      </Grid>
+    </StackLayout>
       
-      <StackLayout  Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
-        <Label Text="Wymagana ilość" VerticalTextAlignment="Center" HorizontalOptions="Start" FontSize="Medium"/>
-        <Label Text="{Binding RequiredAmount}" Margin="10,0,0,0" VerticalTextAlignment="Center" HorizontalTextAlignment="End" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold"/>
+      <StackLayout HorizontalOptions="Center" >
+        <Label x:Name="bmilbl" VerticalTextAlignment="Center" HorizontalOptions="Start" FontSize="Medium"/>
+      </StackLayout>
+
+      <StackLayout HorizontalOptions="Center" >
+        <Label Text="{Binding BmiWeight}"  FontSize="52"/>
+      </StackLayout>
+
+      <StackLayout HorizontalOptions="Center" >
+        <Label Text="{Binding Name}" 
+               VerticalTextAlignment="Center" 
+               HorizontalOptions="Start" 
+               FontSize="Medium" 
+               TextColor="{Binding BmiColor}, Converter={StaticResource StringToColorConverter}"/>
+
       </StackLayout>
 
     </StackLayout>
-    
-  </ContentPage.Content>
   
 </ContentPage>

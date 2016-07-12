@@ -10,5 +10,6 @@ namespace PersonalTrainer.Helper
     public interface IBmiCalculator
     {
         int BmiWeight(User user);
+        Dictionary<string, string> BmiName(double bmi);
     }
 }

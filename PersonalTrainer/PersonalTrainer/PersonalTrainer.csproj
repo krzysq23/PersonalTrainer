@@ -39,8 +39,11 @@
     <Compile Include="Behaviors\RadioBehavior.cs" />
     <Compile Include="Data\ISQLiteFactory.cs" />
     <Compile Include="Data\PTDatabase.cs" />
+    <Compile Include="Helper\BmiCalculator.cs" />
+    <Compile Include="Helper\IBmiCalculator.cs" />
     <Compile Include="Helper\NavigationService.cs" />
     <Compile Include="Managers\UserManager.cs" />
+    <Compile Include="Models\Bmi.cs" />
     <Compile Include="Models\Enums\Gender.cs" />
     <Compile Include="Models\MasterPageItem.cs" />
     <Compile Include="Models\User.cs" />

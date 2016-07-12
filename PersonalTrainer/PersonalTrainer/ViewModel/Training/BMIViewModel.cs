@@ -17,11 +17,13 @@ namespace PersonalTrainer.ViewModel
     public class BMIViewModel : AppViewModelBase
     {
         private readonly INavigationService _navigationService;
+        private readonly IBmiCalculator _bmiCalculator;
+
         public BMIViewModel(INavigationService navigationService)
         {
             if (navigationService == null) throw new ArgumentNullException("navigationService");
             _navigationService = navigationService;
-
+            _bmiCalculator = new BmiCalculator();
             Title = "BMI";
             Refresh();
         }
@@ -38,6 +40,11 @@ namespace PersonalTrainer.ViewModel
             }
         }
         #endregion
+
+        #region Properties
+        public string BmiColor { get; set; }
+        #endregion
+
         #region Refresh()
         void Refresh()
         {
@@ -59,13 +66,12 @@ namespace PersonalTrainer.ViewModel
 
             try
             {
-                var user = App.UserManager.GetUsers();
-                _bmiInfo.BmiWeight = new BmiCalculator(user);
-                ProductItems.Clear();
-                foreach (var todo in products)
-                {
-                    ProductItems.Add(todo);
-                }
+                var user = App.UserManager.GetUser();
+                _bmiInfo.BmiWeight = _bmiCalculator.BmiWeight(user);
+                var bmiName = _bmiCalculator.BmiName(_bmiInfo.BmiWeight);
+                _bmiInfo.Name = bmiName.Keys.FirstOrDefault().ToString();
+                BmiColor = bmiName.Values.FirstOrDefault().ToString();
+
             }
             catch (Exception ex)
             {

@@ -20,7 +20,7 @@ namespace PersonalTrainer.Pages
 
         public void DataResource()
         {
-            bmilbl.Text = AppResource.UserName;
+            bmilbl.Text = AppResource.BMIis;
         }
     }
 }

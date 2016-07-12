@@ -126,6 +126,30 @@
   <data name="Age" xml:space="preserve">
     <value>Age</value>
   </data>
+  <data name="Bmi1" xml:space="preserve">
+    <value>Bmi1</value>
+  </data>
+  <data name="Bmi2" xml:space="preserve">
+    <value>Bmi2</value>
+  </data>
+  <data name="Bmi3" xml:space="preserve">
+    <value>Bmi3</value>
+  </data>
+  <data name="Bmi4" xml:space="preserve">
+    <value>Bmi4</value>
+  </data>
+  <data name="Bmi5" xml:space="preserve">
+    <value>Bmi5</value>
+  </data>
+  <data name="Bmi6" xml:space="preserve">
+    <value>Bmi6</value>
+  </data>
+  <data name="Bmi7" xml:space="preserve">
+    <value>Bmi7</value>
+  </data>
+  <data name="Bmi8" xml:space="preserve">
+    <value>Bmi8</value>
+  </data>
   <data name="BMIis" xml:space="preserve">
     <value>BMI weight is:</value>
   </data>

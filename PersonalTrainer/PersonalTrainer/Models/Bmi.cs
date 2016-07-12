@@ -8,8 +8,8 @@ namespace PersonalTrainer.Models
 {
     public class Bmi
     {
-        public int BmiWeight { get; set; }
-        public string Title { get; set; }
+        public double BmiWeight { get; set; }
+        public string Name { get; set; }
         public string Description { get; set; }
     }
 }

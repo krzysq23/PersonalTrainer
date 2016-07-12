@@ -89,6 +89,78 @@ namespace PersonalTrainer.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Bmi1.
+        /// </summary>
+        internal static string Bmi1 {
+            get {
+                return ResourceManager.GetString("Bmi1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bmi2.
+        /// </summary>
+        internal static string Bmi2 {
+            get {
+                return ResourceManager.GetString("Bmi2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bmi3.
+        /// </summary>
+        internal static string Bmi3 {
+            get {
+                return ResourceManager.GetString("Bmi3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bmi4.
+        /// </summary>
+        internal static string Bmi4 {
+            get {
+                return ResourceManager.GetString("Bmi4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bmi5.
+        /// </summary>
+        internal static string Bmi5 {
+            get {
+                return ResourceManager.GetString("Bmi5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bmi6.
+        /// </summary>
+        internal static string Bmi6 {
+            get {
+                return ResourceManager.GetString("Bmi6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bmi7.
+        /// </summary>
+        internal static string Bmi7 {
+            get {
+                return ResourceManager.GetString("Bmi7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Bmi8.
+        /// </summary>
+        internal static string Bmi8 {
+            get {
+                return ResourceManager.GetString("Bmi8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to BMI weight is:.
         /// </summary>
         internal static string BMIis {
