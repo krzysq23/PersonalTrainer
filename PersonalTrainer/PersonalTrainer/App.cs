@@ -26,10 +26,10 @@ namespace PersonalTrainer
             {
                 DependencyService.Get<ILocalize>().SetLocale();
             }
-
+            
             try
             {
-               if(UserManager.GetUser() == null)
+                if (UserManager.GetUser() == null)
                 {
                     UserManager.SaveUser(new Models.User());
                 } 

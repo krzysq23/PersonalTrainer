@@ -28,6 +28,14 @@ namespace PersonalTrainer.Managers
             }
         }
 
+        public IEnumerable<User> GetUsers()
+        {
+            lock (locker)
+            {
+                return (from i in _connection.Table<User>() select i).ToList();
+            }
+        }
+
         public int SaveUser(User item)
         {
             lock (locker)
@@ -41,6 +49,13 @@ namespace PersonalTrainer.Managers
                 {
                     return _connection.Insert(item);
                 }
+            }
+        }
+        public int DeleteUser(int id)
+        {
+            lock (locker)
+            {
+                return _connection.Delete<User>(id);
             }
         }
     }

@@ -3,9 +3,11 @@ using PersonalTrainer.Models;
 using PersonalTrainer.Resx;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using Xamarin.Forms;
 
 namespace PersonalTrainer.ViewModel
@@ -19,7 +21,7 @@ namespace PersonalTrainer.ViewModel
             _navigationService = navigationService;
             UserInfo = App.UserManager.GetUser();
             Title = AppResource.UserEditInfo;
-            SelectedIndexEnum = ((int)_userInfo.Gender) - 1;
+            SelectedGenderEnum = ((int)_userInfo.Gender) - 1;
         }
 
         #region UserInfo
@@ -35,13 +37,16 @@ namespace PersonalTrainer.ViewModel
         }
         #endregion
 
-        public int SelectedIndexEnum { get; set; }
+        public int SelectedGenderEnum { get; set; }
 
         #region Save
-        Command saveItemCommand;
-        public Command SaveItemCommand
+        ICommand saveItemCommand;
+        public ICommand SaveItemCommand
         {
-            get { return saveItemCommand ?? (saveItemCommand = new Command(async () => await ExecuteSaveItemCommand())); }
+            get
+            {
+                return saveItemCommand ?? (saveItemCommand = new Command(async () => await ExecuteSaveItemCommand()));
+            }
         }
 
         async Task ExecuteSaveItemCommand()
@@ -52,8 +57,7 @@ namespace PersonalTrainer.ViewModel
             //TODO: Rebind
             if (_userInfo != null)
             {
-                //Zaczynamy od 1, gdzie index jest zero-based
-                _userInfo.Gender = (Gender)(SelectedIndexEnum + 1);
+                _userInfo.Gender = (Gender)(SelectedGenderEnum + 1);
 
             }
 
@@ -61,10 +65,13 @@ namespace PersonalTrainer.ViewModel
 
             try
             {
-                Acr.UserDialogs.UserDialogs.Instance.ShowLoading("Saving new item");
+                //Acr.UserDialogs.UserDialogs.Instance.ShowLoading("Saving new item");
 
-                App.UserManager.SaveUser(_userInfo); 
-                Acr.UserDialogs.UserDialogs.Instance.ShowSuccess("Updated item", 1500);
+                App.UserManager.SaveUser(_userInfo);
+
+                //Acr.UserDialogs.UserDialogs.Instance.ShowSuccess("Updated item", 1500);
+
+                await App.Current.MainPage.DisplayAlert(AppResource.Info, AppResource.SaveChanges, "OK");
 
                 MessagingCenter.Send<UserEditInfoViewModel>(this, "ItemsChanged");
             }

@@ -126,6 +126,9 @@
   <data name="Age" xml:space="preserve">
     <value>Wiek</value>
   </data>
+  <data name="BMIis" xml:space="preserve">
+    <value>BMI weight is:</value>
+  </data>
   <data name="BMIlbl" xml:space="preserve">
     <value>Miernik BMI</value>
   </data>

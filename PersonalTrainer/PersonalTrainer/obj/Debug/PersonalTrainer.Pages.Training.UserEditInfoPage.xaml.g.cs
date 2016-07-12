@@ -26,13 +26,16 @@ namespace PersonalTrainer.Pages {
         private global::Xamarin.Forms.Label genderLbl;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Picker genderPicker;
+        private global::Xamarin.FormsBook.Toolkit.RadioBehavior maleRadio;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private string malePicker;
+        private global::Xamarin.Forms.Label malelbl;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private string famalePicker;
+        private global::Xamarin.FormsBook.Toolkit.RadioBehavior famaleRadio;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label famalelbl;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label ageLbl;
@@ -61,9 +64,10 @@ namespace PersonalTrainer.Pages {
             userNameLbl = this.FindByName<global::Xamarin.Forms.Label>("userNameLbl");
             userNameEntry = this.FindByName<global::Xamarin.Forms.Entry>("userNameEntry");
             genderLbl = this.FindByName<global::Xamarin.Forms.Label>("genderLbl");
-            genderPicker = this.FindByName<global::Xamarin.Forms.Picker>("genderPicker");
-            malePicker = this.FindByName<string>("malePicker");
-            famalePicker = this.FindByName<string>("famalePicker");
+            maleRadio = this.FindByName<global::Xamarin.FormsBook.Toolkit.RadioBehavior>("maleRadio");
+            malelbl = this.FindByName<global::Xamarin.Forms.Label>("malelbl");
+            famaleRadio = this.FindByName<global::Xamarin.FormsBook.Toolkit.RadioBehavior>("famaleRadio");
+            famalelbl = this.FindByName<global::Xamarin.Forms.Label>("famalelbl");
             ageLbl = this.FindByName<global::Xamarin.Forms.Label>("ageLbl");
             ageEntry = this.FindByName<global::Xamarin.Forms.Entry>("ageEntry");
             weightLbl = this.FindByName<global::Xamarin.Forms.Label>("weightLbl");

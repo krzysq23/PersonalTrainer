@@ -17,8 +17,12 @@ namespace PersonalTrainer.Pages {
     public partial class BMIPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label bmilbl;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(BMIPage));
+            bmilbl = this.FindByName<global::Xamarin.Forms.Label>("bmilbl");
         }
     }
 }

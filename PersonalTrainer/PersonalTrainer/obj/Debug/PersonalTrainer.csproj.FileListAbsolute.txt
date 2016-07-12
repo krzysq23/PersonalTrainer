@@ -36,6 +36,10 @@ C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Acr.UserDi
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Acr.UserDialogs.Interface.dll
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Splat.dll
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Acr.UserDialogs.Interface.pdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\FormsToolkit.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\FormsToolkit.xml
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\obj\Debug\PersonalTrainer.csprojResolveAssemblyReference.cache
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Xamarin.FormsBook.Toolkit.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\Xamarin.FormsBook.Toolkit.pdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\obj\Debug\PersonalTrainer.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer\bin\Debug\PersonalTrainer.dll.mdb

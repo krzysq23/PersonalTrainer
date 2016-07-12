@@ -56,11 +56,14 @@ C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\res\
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\res\drawable-pl\flagpl.png
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\res\values\colors.xml
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\res\drawable\logo.png
-C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\PersonalTrainer.Droid.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Acr.UserDialogs.dll
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Acr.UserDialogs.Interface.dll
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Splat.dll
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Acr.UserDialogs.Interface.pdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Xamarin.FormsBook.Toolkit.dll
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Xamarin.FormsBook.Toolkit.pdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\PersonalTrainer.Droid.dll.mdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Acr.UserDialogs.Interface.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Mono.Android.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\mscorlib.dll.mdb
@@ -73,6 +76,8 @@ C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Syst
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\System.Xml.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\Acr.UserDialogs.Interface.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\GalaSoft.MvvmLight.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\GalaSoft.MvvmLight.Extras.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\GalaSoft.MvvmLight.Platform.dll.mdb
@@ -91,7 +96,6 @@ C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\andr
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\Acr.UserDialogs.Interface.dll.mdb
-C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\Acr.UserDialogs.Interface.dll.mdb
+C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\android\assets\Xamarin.FormsBook.Toolkit.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\obj\Debug\PersonalTrainer.Droid.dll.mdb
 C:\Projects\PersonalTrainer\PersonalTrainer\PersonalTrainer.Droid\bin\Debug\PersonalTrainer.Droid.dll.mdb

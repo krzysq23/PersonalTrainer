@@ -21,23 +21,6 @@ namespace PersonalTrainer.Pages
             DataResource();
         }
 
-        async void SaveClicked(object sender, EventArgs e)
-        {
-            _user.UserName = userNameEntry.Text;
-            _user.Age = Convert.ToInt32(ageEntry.Text);
-            _user.Weight = Convert.ToInt32(weightEntry.Text);
-            _user.Height = Convert.ToInt32(heightEntry.Text);
-            try
-            {
-                App.UserManager.SaveUser(_user);
-                await DisplayAlert(AppResource.Info, AppResource.SaveChanges, "OK");
-            }
-            catch (Exception ex)
-            {
-                Acr.UserDialogs.UserDialogs.Instance.ShowError(ex.Message);
-            }
-        }
-
         public void DataResource()
         {
             userNameLbl.Text = AppResource.UserName;
@@ -49,8 +32,8 @@ namespace PersonalTrainer.Pages
             weightEntry.Placeholder = AppResource.Weight;
             heightEntry.Placeholder = AppResource.Height;
             genderLbl.Text = AppResource.Gender;
-            malePicker = AppResource.Male;
-            famalePicker = AppResource.Male;
+            malelbl.Text = AppResource.Male;
+            famalelbl.Text = AppResource.Famale;
             save.Text = AppResource.Save;
         }
     }

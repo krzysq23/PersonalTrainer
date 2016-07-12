@@ -1,33 +1,95 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit= "clr-namespace:Xamarin.FormsBook.Toolkit;assembly=Xamarin.FormsBook.Toolkit"
              x:Class="PersonalTrainer.Pages.UserEditInfoPage"
+             xmlns:behaviors="clr-namespace:PersonalTrainer.Behaviors;assembly=PersonalTrainer"
              Title="{Binding Title}">
 
-  <StackLayout Padding="10" VerticalOptions="StartAndExpand" BindingContext="{Binding UserInfo}">
+    <ContentPage.Resources> 
+      <ResourceDictionary> 
+        <x:String x:Key="uncheckedRadio">&#x25CB;</x:String> 
+        <x:String x:Key="checkedRadio">&#x25C9;</x:String> 
+      </ResourceDictionary> 
+    </ContentPage.Resources>
+  
+    <StackLayout Padding="10" VerticalOptions="StartAndExpand" >
 
-    <Label x:Name="userNameLbl" />
-    <Entry x:Name="userNameEntry" Text="{Binding UserName}" />
+      <StackLayout BindingContext="{Binding UserInfo}">
+      
+        <Label x:Name="userNameLbl" />
+        <Entry x:Name="userNameEntry" Text="{Binding UserName}" />
 
-    <Label x:Name="genderLbl"/>
-    <Picker x:Name="genderPicker" SelectedIndex="{Binding SelectedIndexEnum}" HorizontalOptions="FillAndExpand">
-      <Picker.Items>
-        <x:String x:Name="malePicker"/>
-        <x:String x:Name="famalePicker"/>
-      </Picker.Items>
-    </Picker>
+        <Grid VerticalOptions="Center" Padding="5, 0">
 
-    <Label x:Name="ageLbl" />
-    <Entry x:Name="ageEntry" Keyboard="Numeric" Text="{Binding Age}" />
+          <StackLayout Grid.Column="0" Spacing="24">
 
-    <Label x:Name="weightLbl" />
-    <Entry x:Name="weightEntry" Keyboard="Numeric" Text="{Binding Weight}" />
+              <StackLayout HorizontalOptions="Start" Spacing="0">
+                  <Label x:Name="genderLbl" />
+                  <BoxView Color="Accent" HeightRequest="1" />
+              </StackLayout>
 
-    <Label x:Name="heightLbl" />
-    <Entry x:Name="heightEntry" Keyboard="Numeric" Text="{Binding Height}" />
+              <StackLayout Spacing="12">
 
-    <Button x:Name="save" Clicked="SaveClicked"/>
+                  <StackLayout Orientation="Horizontal">
+                      <StackLayout.Behaviors>
+                          <toolkit:RadioBehavior x:Name="maleRadio"
+                                                 GroupName="platformGroup" />
+                      </StackLayout.Behaviors>
 
+                      <Label Text="{StaticResource uncheckedRadio}">
+                          <Label.Triggers>
+                              <DataTrigger TargetType="Label"
+                                           Binding="{Binding Source={x:Reference maleRadio},
+                                                             Path=IsChecked}"
+                                           Value="True">
+                                  <Setter Property="Text" Value="{StaticResource checkedRadio}" />
+                              </DataTrigger>
+                          </Label.Triggers>
+                      </Label>
+                      <Label x:Name="malelbl" />
+                  </StackLayout>
+
+                  <StackLayout Orientation="Horizontal">
+                      <StackLayout.Behaviors>
+                          <toolkit:RadioBehavior x:Name="famaleRadio"
+                                                 GroupName="platformGroup" />
+                      </StackLayout.Behaviors>
+
+                      <Label Text="{StaticResource uncheckedRadio}">
+                          <Label.Triggers>
+                              <DataTrigger TargetType="Label"
+                                           Binding="{Binding Source={x:Reference famaleRadio},
+                                                             Path=IsChecked}"
+                                           Value="True">
+                                  <Setter Property="Text" Value="{StaticResource checkedRadio}" />
+                              </DataTrigger>
+                          </Label.Triggers>
+                      </Label>
+                      <Label x:Name="famalelbl" />
+                  </StackLayout>
+                </StackLayout>
+            </StackLayout>
+          </Grid>
+
+
+      <Label x:Name="ageLbl" />
+      <Entry x:Name="ageEntry" Keyboard="Numeric" Text="{Binding Age}" />
+
+      <Label x:Name="weightLbl" />
+      <Entry x:Name="weightEntry" Keyboard="Numeric" Text="{Binding Weight}" />
+
+      <Label x:Name="heightLbl" />
+      <Entry x:Name="heightEntry" Keyboard="Numeric" Text="{Binding Height}" />
+
+    </StackLayout>
+    
+    <StackLayout VerticalOptions="StartAndExpand">
+    
+      <Button x:Name="save" Command="{Binding SaveItemCommand}"/>
+  
+    </StackLayout>
+  
   </StackLayout>
   
 </ContentPage>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PersonalTrainer.Resx;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,6 +15,12 @@ namespace PersonalTrainer.Pages
         {
             InitializeComponent();
             BindingContext = App.Locator.BMI;
+            DataResource();
+        }
+
+        public void DataResource()
+        {
+            bmilbl.Text = AppResource.UserName;
         }
     }
 }

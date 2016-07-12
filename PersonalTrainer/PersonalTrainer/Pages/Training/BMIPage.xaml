@@ -1,6 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PersonalTrainer.Pages.BMIPage">
+             x:Class="PersonalTrainer.Pages.BMIPage"
+             Title="{Binding Title}">
 
+
+  <ContentPage.Content BindingContext="{Binding UserInfo}">
+    <StackLayout Spacing="10" Padding="10">
+      <StackLayout  Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
+        <Label x:Name="bmilbl" VerticalTextAlignment="Center" HorizontalOptions="Start" FontSize="Medium"/>
+        <Label Text="{Binding ProductName}" Margin="10,0,0,0" VerticalTextAlignment="Center" HorizontalTextAlignment="End" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold"/>
+      </StackLayout>
+      
+      <StackLayout  Orientation="Horizontal" HorizontalOptions="StartAndExpand" >
+        <Label Text="Wymagana ilość" VerticalTextAlignment="Center" HorizontalOptions="Start" FontSize="Medium"/>
+        <Label Text="{Binding RequiredAmount}" Margin="10,0,0,0" VerticalTextAlignment="Center" HorizontalTextAlignment="End" HorizontalOptions="End" FontSize="Medium" FontAttributes="Bold"/>
+      </StackLayout>
+
+    </StackLayout>
+    
+  </ContentPage.Content>
+  
 </ContentPage>

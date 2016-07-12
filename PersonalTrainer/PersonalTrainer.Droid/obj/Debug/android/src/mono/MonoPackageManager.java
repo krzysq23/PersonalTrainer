@@ -133,11 +133,13 @@ class MonoPackageManager_Resources {
 		"System.Text.RegularExpressions.dll",
 		"System.Collections.Concurrent.dll",
 		"System.Runtime.InteropServices.dll",
+		"System.Diagnostics.Tools.dll",
+		"Xamarin.FormsBook.Toolkit.dll",
+		"System.Text.Encoding.dll",
+		"Acr.UserDialogs.dll",
 		"Acr.UserDialogs.Interface.dll",
 		"Splat.dll",
 		"System.Runtime.Serialization.Primitives.dll",
-		"System.Diagnostics.Tools.dll",
-		"Acr.UserDialogs.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
