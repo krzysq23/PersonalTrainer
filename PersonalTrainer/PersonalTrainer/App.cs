@@ -19,6 +19,7 @@ namespace PersonalTrainer
         private static ViewModelLocator _locator;
         public static ViewModelLocator Locator { get { return _locator ?? (_locator = new ViewModelLocator()); } }
         private static UserManager _userManager;
+        private static TrainingManager _trainingManager;
 
         public App()
         {
@@ -75,6 +76,18 @@ namespace PersonalTrainer
                     _userManager = new UserManager();
                 }
                 return _userManager;
+            }
+        }
+
+        public static TrainingManager TrainingManager
+        {
+            get
+            {
+                if (_trainingManager == null)
+                {
+                    _trainingManager = new TrainingManager();
+                }
+                return _trainingManager;
             }
         }
 

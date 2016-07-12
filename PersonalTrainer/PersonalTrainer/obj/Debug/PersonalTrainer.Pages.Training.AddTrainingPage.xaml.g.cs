@@ -17,8 +17,36 @@ namespace PersonalTrainer.Pages {
     public partial class AddTrainingPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label ageLbl;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry ageEntry;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label lengthMinLbl;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry lengthMinEntry;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label descriptionLbl;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry descriptionEntry;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button save;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(AddTrainingPage));
+            ageLbl = this.FindByName<global::Xamarin.Forms.Label>("ageLbl");
+            ageEntry = this.FindByName<global::Xamarin.Forms.Entry>("ageEntry");
+            lengthMinLbl = this.FindByName<global::Xamarin.Forms.Label>("lengthMinLbl");
+            lengthMinEntry = this.FindByName<global::Xamarin.Forms.Entry>("lengthMinEntry");
+            descriptionLbl = this.FindByName<global::Xamarin.Forms.Label>("descriptionLbl");
+            descriptionEntry = this.FindByName<global::Xamarin.Forms.Entry>("descriptionEntry");
+            save = this.FindByName<global::Xamarin.Forms.Button>("save");
         }
     }
 }

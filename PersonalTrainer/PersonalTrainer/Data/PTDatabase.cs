@@ -17,6 +17,7 @@ namespace PersonalTrainer.Data
         {
             _connection = DependencyService.Get<ISQLiteFactory>().GetConnection();
             _connection.CreateTable<User>();
+            _connection.CreateTable<Training>();
         }
 
         public SQLiteConnection Connection()

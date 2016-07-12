@@ -36,16 +36,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
-    <Compile Include="Behaviors\RadioBehavior.cs" />
     <Compile Include="Data\ISQLiteFactory.cs" />
     <Compile Include="Data\PTDatabase.cs" />
     <Compile Include="Helper\BmiCalculator.cs" />
     <Compile Include="Helper\IBmiCalculator.cs" />
     <Compile Include="Helper\NavigationService.cs" />
+    <Compile Include="Managers\TrainingManager.cs" />
     <Compile Include="Managers\UserManager.cs" />
     <Compile Include="Models\Bmi.cs" />
+    <Compile Include="Models\Enums\SportType.cs" />
     <Compile Include="Models\Enums\Gender.cs" />
     <Compile Include="Models\MasterPageItem.cs" />
+    <Compile Include="Models\Training.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Pages\Navigation\MasterPage.xaml.cs">
       <DependentUpon>MasterPage.xaml</DependentUpon>

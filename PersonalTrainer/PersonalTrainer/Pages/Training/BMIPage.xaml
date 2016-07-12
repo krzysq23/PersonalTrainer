@@ -81,7 +81,6 @@
                HorizontalOptions="Start" 
                FontSize="Medium" 
                TextColor="{Binding BmiColor}, Converter={StaticResource StringToColorConverter}"/>
-
       </StackLayout>
 
     </StackLayout>
