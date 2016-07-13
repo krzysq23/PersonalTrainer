@@ -27,7 +27,7 @@ namespace PersonalTrainer
             {
                 DependencyService.Get<ILocalize>().SetLocale();
             }
-            
+
             try
             {
                 if (UserManager.GetUser() == null)
@@ -49,7 +49,7 @@ namespace PersonalTrainer
                 nav.Configure(ViewModelLocator.UserEditInfoPage, typeof(UserEditInfoPage));
                 nav.Configure(ViewModelLocator.BMIPage, typeof(BMIPage));
                 nav.Configure(ViewModelLocator.AddTrainingPage, typeof(AddTrainingPage));
-                nav.Configure(ViewModelLocator.TrainingCallendarPage, typeof(TrainingCallendarPage));
+                nav.Configure(ViewModelLocator.TrainingCalendarPage, typeof(TrainingCalendarPage));
                 SimpleIoc.Default.Register<INavigationService>(() => nav);
             }
             else
@@ -93,7 +93,7 @@ namespace PersonalTrainer
 
         protected override void OnStart()
         {
-
+            
         }
 
         protected override void OnSleep()

@@ -35,14 +35,14 @@ namespace PersonalTrainer.ViewModel
             SimpleIoc.Default.Register<UserEditInfoViewModel>();
             SimpleIoc.Default.Register<AddTrainingViewModel>();
             SimpleIoc.Default.Register<BMIViewModel>();
-            SimpleIoc.Default.Register<TrainingCallendarViewModel>();
+            SimpleIoc.Default.Register<TrainingCalendarViewModel>();
         }
 
         public const string HomePage = "HomePage";
         public const string UserEditInfoPage = "UserEditInfoPage";
         public const string BMIPage = "BMIPage";
         public const string AddTrainingPage = "AddTrainingPage";
-        public const string TrainingCallendarPage = "TrainingCallendarPage";
+        public const string TrainingCalendarPage = "TrainingCalendarPage";
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance",
             "CA1822:MarkMembersAsStatic",
@@ -91,11 +91,11 @@ namespace PersonalTrainer.ViewModel
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance",
             "CA1822:MarkMembersAsStatic",
             Justification = "This non-static member is needed for data binding purposes.")]
-        public TrainingCallendarViewModel TrainingCallendar
+        public TrainingCalendarViewModel TrainingCalendar
         {
             get
             {
-                return ServiceLocator.Current.GetInstance<TrainingCallendarViewModel>();
+                return ServiceLocator.Current.GetInstance<TrainingCalendarViewModel>();
             }
         }
         public static void Cleanup()

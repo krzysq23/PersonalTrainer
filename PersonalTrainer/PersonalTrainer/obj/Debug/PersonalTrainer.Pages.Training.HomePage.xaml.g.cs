@@ -29,7 +29,7 @@ namespace PersonalTrainer.Pages {
         private global::Xamarin.Forms.Button AddtraningBtn;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button TrainingCallendarBtn;
+        private global::Xamarin.Forms.Button TrainingCalendarBtn;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
@@ -38,7 +38,7 @@ namespace PersonalTrainer.Pages {
             UserInfoBtn = this.FindByName<global::Xamarin.Forms.Button>("UserInfoBtn");
             BmiBtn = this.FindByName<global::Xamarin.Forms.Button>("BmiBtn");
             AddtraningBtn = this.FindByName<global::Xamarin.Forms.Button>("AddtraningBtn");
-            TrainingCallendarBtn = this.FindByName<global::Xamarin.Forms.Button>("TrainingCallendarBtn");
+            TrainingCalendarBtn = this.FindByName<global::Xamarin.Forms.Button>("TrainingCalendarBtn");
         }
     }
 }

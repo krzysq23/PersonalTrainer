@@ -189,8 +189,8 @@
   <data name="Training" xml:space="preserve">
     <value>Training</value>
   </data>
-  <data name="TrainingCallendar" xml:space="preserve">
-    <value>Training Callendar</value>
+  <data name="TrainingCalendar" xml:space="preserve">
+    <value>Training Calendar</value>
   </data>
   <data name="UserEditInfo" xml:space="preserve">
     <value>Edit user info</value>
@@ -200,5 +200,100 @@
   </data>
   <data name="Weight" xml:space="preserve">
     <value>Weight</value>
+  </data>
+  <data name="Basketball" xml:space="preserve">
+    <value>Basketball</value>
+  </data>
+  <data name="Cycling" xml:space="preserve">
+    <value>Cycling</value>
+  </data>
+  <data name="DateStarded" xml:space="preserve">
+    <value>Date starded</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Football" xml:space="preserve">
+    <value>Football</value>
+  </data>
+  <data name="Gym" xml:space="preserve">
+    <value>Gym</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="Running" xml:space="preserve">
+    <value>Running</value>
+  </data>
+  <data name="SportType" xml:space="preserve">
+    <value>Sport type</value>
+  </data>
+  <data name="TrainingLengthMin" xml:space="preserve">
+    <value>Training length time (min)</value>
+  </data>
+  <data name="CustomAppearanceDescription" xml:space="preserve">
+    <value>Shows a calendar with a custom style.</value>
+  </data>
+  <data name="CustomAppearanceTitle" xml:space="preserve">
+    <value>Custom Appearance</value>
+  </data>
+  <data name="CustomDayContentDescription" xml:space="preserve">
+    <value>Shows how to customize a day slot to show custom content.</value>
+  </data>
+  <data name="CustomDayContentTitle" xml:space="preserve">
+    <value>Custom Day Content</value>
+  </data>
+  <data name="CustomHeaderDescription" xml:space="preserve">
+    <value>Shows a custom header inspired by a popular Android or iOS calendar app.</value>
+  </data>
+  <data name="CustomHeaderTitle" xml:space="preserve">
+    <value>Custom Header</value>
+  </data>
+  <data name="CustomSelectionDescription" xml:space="preserve">
+    <value>Shows custom selection scenarios.</value>
+  </data>
+  <data name="CustomSelectionMessage" xml:space="preserve">
+    <value>Step 1: Select a date
+Step 2: Select another date in a different week
+Observe: The weekend days are not selected</value>
+  </data>
+  <data name="CustomSelectionTitle" xml:space="preserve">
+    <value>Custom Selection</value>
+  </data>
+  <data name="DecadeLabel" xml:space="preserve">
+    <value>Decade</value>
+  </data>
+  <data name="GettingStartedDescription" xml:space="preserve">
+    <value>Shows a basic calendar with selection and interaction.</value>
+  </data>
+  <data name="GettingStartedTitle" xml:space="preserve">
+    <value>Getting Started</value>
+  </data>
+  <data name="MonthLabel" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="PickDateLabel" xml:space="preserve">
+    <value>Pick a date</value>
+  </data>
+  <data name="PopupEditorDescription" xml:space="preserve">
+    <value>Shows how to use the control as a pop-up date selector.</value>
+  </data>
+  <data name="PopupEditorTitle" xml:space="preserve">
+    <value>Popup Editor</value>
+  </data>
+  <data name="SelectedDateMessage" xml:space="preserve">
+    <value>The date {0:d} was selected.</value>
+  </data>
+  <data name="TodayLabel" xml:space="preserve">
+    <value>Today</value>
+  </data>
+  <data name="VerticalOrientationDescription" xml:space="preserve">
+    <value>Shows a calendar with vertical navigation/scrolling.</value>
+  </data>
+  <data name="VerticalOrientationTitle" xml:space="preserve">
+    <value>Vertical Orientation</value>
+  </data>
+  <data name="YearLabel" xml:space="preserve">
+    <value>Year</value>
   </data>
 </root>

@@ -24,7 +24,7 @@ namespace PersonalTrainer.Pages
             UserInfoBtn.Text = AppResource.UserEditInfo;
             BmiBtn.Text = AppResource.BMIlbl;
             AddtraningBtn.Text = AppResource.AddTraining;
-            TrainingCallendarBtn.Text = AppResource.TrainingCallendar;
+            TrainingCalendarBtn.Text = AppResource.TrainingCalendar;
         }
     }
 }

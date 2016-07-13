@@ -13,17 +13,3 @@ C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\obj\Debug\Xamarin.FormsBoo
 C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\obj\Debug\Xamarin.FormsBook.Toolkit.pdb
 C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\obj\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
 C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\bin\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\obj\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\bin\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\obj\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\bin\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\obj\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\bin\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\obj\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\bin\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\obj\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\bin\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\obj\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\bin\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\obj\Debug\Xamarin.FormsBook.Toolkit.dll.mdb
-C:\Projects\PersonalTrainer\Xamarin.FormsBook.Toolkit\bin\Debug\Xamarin.FormsBook.Toolkit.dll.mdb

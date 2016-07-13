@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PersonalTrainer.Pages.TrainingCalendarPage"
+             xmlns:xuni="clr-namespace:Xuni.Forms.Calendar;assembly=Xuni.Forms.Calendar"
+             Title="{Binding Title}">
+
+  <StackLayout>
+    <!--<Label BindingContext="{x:Reference page}" Text="{Binding Title}" IsVisible="{StaticResource TitleVisible}" HorizontalOptions="Center" Font="Large"/>-->
+    <xuni:XuniCalendar DayOfWeekFontSize="8"  DayOfWeekFontAttributes="Italic" VerticalOptions="FillAndExpand">
+      <xuni:XuniCalendar.DaySlotTemplate>
+        <DataTemplate>
+          <xuni:CalendarViewDaySlot>
+            <xuni:CalendarViewDaySlot.View>
+              <StackLayout Padding="4">
+                <Label Text="aaa" VerticalOptions="FillAndExpand"/>
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal" Spacing="2">
+                  <Grid WidthRequest="4" HeightRequest="4" BackgroundColor="Red" />
+                  <Grid WidthRequest="4" HeightRequest="4" BackgroundColor="Green" />
+                  <Grid WidthRequest="4" HeightRequest="4" BackgroundColor="Blue"/>
+                </StackLayout>
+              </StackLayout>
+            </xuni:CalendarViewDaySlot.View>
+          </xuni:CalendarViewDaySlot>
+        </DataTemplate>
+      </xuni:XuniCalendar.DaySlotTemplate>
+      <xuni:XuniCalendar.AdjacentDaySlotTemplate>
+        <DataTemplate>
+          <xuni:CalendarDaySlot DayText="ssss" DayHorizontalAlignment="Center" DayVerticalAlignment="Start"/>
+        </DataTemplate>
+      </xuni:XuniCalendar.AdjacentDaySlotTemplate>
+    </xuni:XuniCalendar>
+  </StackLayout>
+  
+</ContentPage>

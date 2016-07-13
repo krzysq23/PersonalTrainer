@@ -1,15 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PersonalTrainer.Pages.AddTrainingPage">
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="PersonalTrainer.Pages.AddTrainingPage"
+             Title="{Binding Title}">
 
   <StackLayout Padding="10" VerticalOptions="StartAndExpand" >
 
     <StackLayout BindingContext="{Binding UserInfo}">
 
-      
-      <Label x:Name="ageLbl" />
-      <Entry x:Name="ageEntry" Keyboard="Numeric" Text="{Binding Age}" />
+      <Label x:Name="typeLbl" />
+      <Picker x:Name="typePicker" SelectedIndex="{Binding SelectedIndexEnum}" HorizontalOptions="FillAndExpand">
+        <Picker.Items>
+        </Picker.Items>
+      </Picker>
 
       <Label x:Name="lengthMinLbl" />
       <Entry x:Name="lengthMinEntry" Keyboard="Numeric" Text="{Binding LengthMin}" />
@@ -17,6 +21,29 @@
       <Label x:Name="descriptionLbl" />
       <Entry x:Name="descriptionEntry" Text="{Binding Height}" />
 
+
+      <Label x:Name="dateLbl" />
+      <DatePicker VerticalOptions="CenterAndExpand" Date="{x:Static sys:DateTime.Now}">
+        <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+        <DatePicker.MinimumDate>
+          <sys:DateTime x:FactoryMethod="Parse">
+            <x:Arguments>
+              <x:String>Jan 1 2000</x:String>
+            </x:Arguments>
+          </sys:DateTime>
+        </DatePicker.MinimumDate>
+        <DatePicker.MaximumDate>
+          <sys:DateTime x:FactoryMethod="Parse">
+            <x:Arguments>
+              <x:String>Dec 31 2050</x:String>
+            </x:Arguments>
+          </sys:DateTime>
+        </DatePicker.MaximumDate>
+      </DatePicker>
+      
+      <Label x:Name="timeLbl" />
+      <TimePicker x:Name="timePicker"/>
+      
     </StackLayout>
 
     <StackLayout VerticalOptions="StartAndExpand">

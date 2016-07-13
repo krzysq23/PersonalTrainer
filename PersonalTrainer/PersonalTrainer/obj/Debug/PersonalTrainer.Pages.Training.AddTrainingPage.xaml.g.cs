@@ -17,10 +17,10 @@ namespace PersonalTrainer.Pages {
     public partial class AddTrainingPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label ageLbl;
+        private global::Xamarin.Forms.Label typeLbl;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Entry ageEntry;
+        private global::Xamarin.Forms.Picker typePicker;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label lengthMinLbl;
@@ -35,17 +35,29 @@ namespace PersonalTrainer.Pages {
         private global::Xamarin.Forms.Entry descriptionEntry;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label dateLbl;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label timeLbl;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.TimePicker timePicker;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button save;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(AddTrainingPage));
-            ageLbl = this.FindByName<global::Xamarin.Forms.Label>("ageLbl");
-            ageEntry = this.FindByName<global::Xamarin.Forms.Entry>("ageEntry");
+            typeLbl = this.FindByName<global::Xamarin.Forms.Label>("typeLbl");
+            typePicker = this.FindByName<global::Xamarin.Forms.Picker>("typePicker");
             lengthMinLbl = this.FindByName<global::Xamarin.Forms.Label>("lengthMinLbl");
             lengthMinEntry = this.FindByName<global::Xamarin.Forms.Entry>("lengthMinEntry");
             descriptionLbl = this.FindByName<global::Xamarin.Forms.Label>("descriptionLbl");
             descriptionEntry = this.FindByName<global::Xamarin.Forms.Entry>("descriptionEntry");
+            dateLbl = this.FindByName<global::Xamarin.Forms.Label>("dateLbl");
+            timeLbl = this.FindByName<global::Xamarin.Forms.Label>("timeLbl");
+            timePicker = this.FindByName<global::Xamarin.Forms.TimePicker>("timePicker");
             save = this.FindByName<global::Xamarin.Forms.Button>("save");
         }
     }

@@ -24,13 +24,13 @@ namespace PersonalTrainer.ViewModel
             UserEditInfoCommand = new RelayCommand(() => { _navigationService.NavigateTo(ViewModelLocator.UserEditInfoPage); });
             BmiCommand = new RelayCommand(() => { _navigationService.NavigateTo(ViewModelLocator.BMIPage); });
             AddTrainingCommand = new RelayCommand(() => { _navigationService.NavigateTo(ViewModelLocator.AddTrainingPage); });
-            TrainingCallendarCommand = new RelayCommand(() => { _navigationService.NavigateTo(ViewModelLocator.TrainingCallendarPage); });
+            TrainingCalendarCommand = new RelayCommand(() => { _navigationService.NavigateTo(ViewModelLocator.TrainingCalendarPage); });
         }
 
         public ICommand UserEditInfoCommand { get; set; }
         public ICommand BmiCommand { get; set; }
         public ICommand AddTrainingCommand { get; set; }
-        public ICommand TrainingCallendarCommand { get; set; }
+        public ICommand TrainingCalendarCommand { get; set; }
 
     }
 }

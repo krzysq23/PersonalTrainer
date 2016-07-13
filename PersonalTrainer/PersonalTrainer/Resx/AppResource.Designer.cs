@@ -89,6 +89,15 @@ namespace PersonalTrainer.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Basketball.
+        /// </summary>
+        internal static string Basketball {
+            get {
+                return ResourceManager.GetString("Basketball", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Bmi1.
         /// </summary>
         internal static string Bmi1 {
@@ -179,6 +188,125 @@ namespace PersonalTrainer.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Shows a calendar with a custom style..
+        /// </summary>
+        internal static string CustomAppearanceDescription {
+            get {
+                return ResourceManager.GetString("CustomAppearanceDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Custom Appearance.
+        /// </summary>
+        internal static string CustomAppearanceTitle {
+            get {
+                return ResourceManager.GetString("CustomAppearanceTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows how to customize a day slot to show custom content..
+        /// </summary>
+        internal static string CustomDayContentDescription {
+            get {
+                return ResourceManager.GetString("CustomDayContentDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Custom Day Content.
+        /// </summary>
+        internal static string CustomDayContentTitle {
+            get {
+                return ResourceManager.GetString("CustomDayContentTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows a custom header inspired by a popular Android or iOS calendar app..
+        /// </summary>
+        internal static string CustomHeaderDescription {
+            get {
+                return ResourceManager.GetString("CustomHeaderDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Custom Header.
+        /// </summary>
+        internal static string CustomHeaderTitle {
+            get {
+                return ResourceManager.GetString("CustomHeaderTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows custom selection scenarios..
+        /// </summary>
+        internal static string CustomSelectionDescription {
+            get {
+                return ResourceManager.GetString("CustomSelectionDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Step 1: Select a date
+        ///Step 2: Select another date in a different week
+        ///Observe: The weekend days are not selected.
+        /// </summary>
+        internal static string CustomSelectionMessage {
+            get {
+                return ResourceManager.GetString("CustomSelectionMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Custom Selection.
+        /// </summary>
+        internal static string CustomSelectionTitle {
+            get {
+                return ResourceManager.GetString("CustomSelectionTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cycling.
+        /// </summary>
+        internal static string Cycling {
+            get {
+                return ResourceManager.GetString("Cycling", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date starded.
+        /// </summary>
+        internal static string DateStarded {
+            get {
+                return ResourceManager.GetString("DateStarded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Decade.
+        /// </summary>
+        internal static string DecadeLabel {
+            get {
+                return ResourceManager.GetString("DecadeLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Description.
+        /// </summary>
+        internal static string Description {
+            get {
+                return ResourceManager.GetString("Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Famale.
         /// </summary>
         internal static string Famale {
@@ -188,11 +316,47 @@ namespace PersonalTrainer.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Football.
+        /// </summary>
+        internal static string Football {
+            get {
+                return ResourceManager.GetString("Football", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Gender.
         /// </summary>
         internal static string Gender {
             get {
                 return ResourceManager.GetString("Gender", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows a basic calendar with selection and interaction..
+        /// </summary>
+        internal static string GettingStartedDescription {
+            get {
+                return ResourceManager.GetString("GettingStartedDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Getting Started.
+        /// </summary>
+        internal static string GettingStartedTitle {
+            get {
+                return ResourceManager.GetString("GettingStartedTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gym.
+        /// </summary>
+        internal static string Gym {
+            get {
+                return ResourceManager.GetString("Gym", resourceCulture);
             }
         }
         
@@ -233,11 +397,65 @@ namespace PersonalTrainer.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Month.
+        /// </summary>
+        internal static string MonthLabel {
+            get {
+                return ResourceManager.GetString("MonthLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Other.
+        /// </summary>
+        internal static string Other {
+            get {
+                return ResourceManager.GetString("Other", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to PersonalTrener.
         /// </summary>
         internal static string PersonalTrener {
             get {
                 return ResourceManager.GetString("PersonalTrener", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Pick a date.
+        /// </summary>
+        internal static string PickDateLabel {
+            get {
+                return ResourceManager.GetString("PickDateLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shows how to use the control as a pop-up date selector..
+        /// </summary>
+        internal static string PopupEditorDescription {
+            get {
+                return ResourceManager.GetString("PopupEditorDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Popup Editor.
+        /// </summary>
+        internal static string PopupEditorTitle {
+            get {
+                return ResourceManager.GetString("PopupEditorTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Running.
+        /// </summary>
+        internal static string Running {
+            get {
+                return ResourceManager.GetString("Running", resourceCulture);
             }
         }
         
@@ -260,11 +478,38 @@ namespace PersonalTrainer.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The date {0:d} was selected..
+        /// </summary>
+        internal static string SelectedDateMessage {
+            get {
+                return ResourceManager.GetString("SelectedDateMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Send.
         /// </summary>
         internal static string Send {
             get {
                 return ResourceManager.GetString("Send", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sport type.
+        /// </summary>
+        internal static string SportType {
+            get {
+                return ResourceManager.GetString("SportType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Today.
+        /// </summary>
+        internal static string TodayLabel {
+            get {
+                return ResourceManager.GetString("TodayLabel", resourceCulture);
             }
         }
         
@@ -278,11 +523,20 @@ namespace PersonalTrainer.Resx {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Training Callendar.
+        ///   Looks up a localized string similar to Training Calendar.
         /// </summary>
-        internal static string TrainingCallendar {
+        internal static string TrainingCalendar {
             get {
-                return ResourceManager.GetString("TrainingCallendar", resourceCulture);
+                return ResourceManager.GetString("TrainingCalendar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Training length time (min).
+        /// </summary>
+        internal static string TrainingLengthMin {
+            get {
+                return ResourceManager.GetString("TrainingLengthMin", resourceCulture);
             }
         }
         
@@ -305,11 +559,38 @@ namespace PersonalTrainer.Resx {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Shows a calendar with vertical navigation/scrolling..
+        /// </summary>
+        internal static string VerticalOrientationDescription {
+            get {
+                return ResourceManager.GetString("VerticalOrientationDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vertical Orientation.
+        /// </summary>
+        internal static string VerticalOrientationTitle {
+            get {
+                return ResourceManager.GetString("VerticalOrientationTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Weight.
         /// </summary>
         internal static string Weight {
             get {
                 return ResourceManager.GetString("Weight", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Year.
+        /// </summary>
+        internal static string YearLabel {
+            get {
+                return ResourceManager.GetString("YearLabel", resourceCulture);
             }
         }
     }

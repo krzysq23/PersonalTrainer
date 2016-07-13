@@ -12,7 +12,7 @@
     <Button x:Name="UserInfoBtn"  Command="{Binding UserEditInfoCommand}"/>
     <Button x:Name="BmiBtn"  Command="{Binding BmiCommand}"/>
     <Button x:Name="AddtraningBtn"  Command="{Binding AddTrainingCommand}"/>
-    <Button x:Name="TrainingCallendarBtn"  Command="{Binding TrainingCallendarCommand}"/>
+    <Button x:Name="TrainingCalendarBtn"  Command="{Binding TrainingCalendarCommand}"/>
 
     
   </StackLayout>
